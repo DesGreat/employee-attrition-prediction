@@ -1,6 +1,5 @@
 # Employee Attrition Prediction – Hackathon Solution  
-
-### *End-to-end machine learning solution for predicting employee attrition using EDA, feature engineering, and classification models.*
+_End-to-end machine learning solution for predicting employee attrition using EDA, feature engineering, and classification models._
 
 ---
 
@@ -11,9 +10,9 @@
 - **Track:** Employee Attrition Prediction  
 
 This repository contains my end-to-end machine learning solution for the **DSN Lekki–Ajah Employee Attrition Prediction Hackathon**, where I placed **Top 3** with a final leaderboard score of **0.87137**.  
-This was my **first ever machine learning hackathon**, marking a major milestone in my learning journey.
+It was my **first ever machine learning hackathon**, marking a major milestone in my learning journey.
 
-The challenge aimed to predict which employees are likely to leave a company based on their demographic, behavioral, and workplace-related characteristics.
+The challenge aimed to predict which employees are likely to leave a company based on demographic, behavioral, and workplace-related characteristics.
 
 ---
 
@@ -22,12 +21,12 @@ The challenge aimed to predict which employees are likely to leave a company bas
 Employee attrition is a major challenge for organizations.  
 This project analyzes and models the drivers of attrition using:
 
-- ✔ **Comprehensive EDA**  
-- ✔ **Feature engineering & preprocessing**  
-- ✔ **Handling class imbalance**  
-- ✔ **Multiple machine learning models**  
-- ✔ **Model comparison & evaluation**  
-- ✔ **Insights for HR decision-making**  
+- ✔ Comprehensive EDA  
+- ✔ Feature engineering & preprocessing  
+- ✔ Handling class imbalance  
+- ✔ Multiple machine learning models  
+- ✔ Model comparison & evaluation  
+- ✔ Insights for HR decision-making  
 
 ---
 
@@ -40,27 +39,27 @@ Major factors contributing to employee attrition include:
 - **Job role**, **job satisfaction**, and **work-life balance** strongly influenced attrition  
 - **Age** and **years at company** were also major determinants  
 
-These insights helped guide model selection and recommend HR interventions.
+These insights guided model selection and helped shape HR recommendations.
 
 ---
 
 ## 🤖 Models Used & Performance Summary  
 
-### **1️⃣ Logistic Regression (Final Model)**  
-- Best **recall** for attrition class  
-- Most stable **TP/FN balance**  
-- Highly **interpretable** for HR teams  
+### 1️⃣ Logistic Regression (Final Model)  
+- Best recall for attrition class  
+- Strongest balance of false positives vs false negatives  
+- Highly interpretable for HR teams  
 - Selected as **final model**
 
-### **2️⃣ Random Forest**  
+### 2️⃣ Random Forest  
 - Good accuracy  
-- Poor recall for minority class  
+- Weak recall for minority class  
 - Not ideal for imbalanced HR datasets  
 
-### **3️⃣ XGBoost**  
+### 3️⃣ XGBoost  
 - Strong performance  
 - Better recall than Random Forest  
-- Still not as effective as Logistic Regression for business-driven metrics  
+- Still not as effective as Logistic Regression for business KPIs  
 
 ---
 
@@ -100,7 +99,7 @@ employee-attrition-prediction/
 
 ---
 
-## 📥 Getting Started
+## 📥 Getting Started  
 
 ### **Clone the Repository**
 ```bash
@@ -137,4 +136,3 @@ and to the amazing community that encourages continuous learning.
 ## 🔗 Connect With Me  
 - **GitHub:** https://github.com/DesGreat  
 - **LinkedIn:** [https://www.linkedin.com/in/destiny-aimufia14](https://www.linkedin.com/in/destiny-aimufia14)
-
