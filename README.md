@@ -9,7 +9,7 @@ End-to-end machine learning project for predicting employee attrition using EDA,
 - **Event:** DSN Lekki–Ajah Hackathon  
 - **Track:** Employee Attrition Prediction
 
- ![Leaderboard Screenshot](src/images/EP_Final_submission.png)
+ notebooks/src/images/EP_Final_submission.png
 
 
 
