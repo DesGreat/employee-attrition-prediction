@@ -1,79 +1,94 @@
-# Employee Attrition Prediction – Hackathon Solution  
-_End-to-end machine learning project for predicting employee attrition using EDA, feature engineering, and classification models._
+Employee Attrition Prediction – Hackathon Solution
 
----
+End-to-end machine learning project for predicting employee attrition using EDA, feature engineering, and classification models.
 
-## 🏆 Hackathon Achievement  
-- **Final Score:** 0.87137  
-- **Position:** 🥉 Top 3 (2nd Runner-Up)  
-- **Event:** DSN Lekki–Ajah Hackathon  
-- **Track:** Employee Attrition Prediction  
+🏆 Hackathon Achievement
 
-This repository contains my end-to-end machine learning solution for the **DSN Lekki–Ajah Employee Attrition Prediction Hackathon**, where I placed **Top 3** with a final score of **0.87137**.  
-It was my **first ever machine learning hackathon**, and a major milestone in my data science journey.
+Final Score: 0.87137
+
+Position: 🥉 Top 3 (2nd Runner-Up)
+
+Event: DSN Lekki–Ajah Hackathon
+
+Track: Employee Attrition Prediction
+
+This repository contains my end-to-end machine learning solution for the DSN Lekki–Ajah Employee Attrition Prediction Hackathon, where I finished Top 3 with a final score of 0.87137.
+
+It was my first ever machine learning hackathon, and a major milestone in my data science journey.
 
 The challenge aimed to predict which employees are likely to leave a company based on demographic, behavioral, and workplace-related characteristics.
 
----
+🚀 Project Overview
 
-## 🚀 Project Overview  
-
-Employee attrition is a major challenge for organizations.  
+Employee attrition is a major challenge for organizations.
 This project analyzes and models the drivers of attrition using:
 
-- ✔ Comprehensive EDA  
-- ✔ Feature engineering & preprocessing  
-- ✔ Handling class imbalance  
-- ✔ Multiple machine learning models  
-- ✔ Model comparison & evaluation  
-- ✔ Insights for HR decision-making  
+✔ Comprehensive EDA
 
----
+✔ Feature engineering & preprocessing
 
-## 🧠 Key Insights From the Data  
+✔ Handling class imbalance
+
+✔ Multiple machine learning models
+
+✔ Model comparison & evaluation
+
+✔ Insights for HR decision-making
+
+🧠 Key Insights From the Data
 
 Major factors contributing to employee attrition include:
 
-- Employees working **OverTime** showed significantly higher attrition  
-- Employees with **lower monthly income** were more likely to leave  
-- **Job role**, **job satisfaction**, and **work-life balance** were strong predictors  
-- **Age** and **years at company** were major determinants  
+Employees working OverTime showed significantly higher attrition
+
+Employees with lower monthly income were more likely to leave
+
+Job role, job satisfaction, and work-life balance were strong predictors
+
+Age and years at company were major determinants
 
 These insights guided model selection and supported HR recommendations.
 
----
+🤖 Models Used & Performance Summary
+1️⃣ Logistic Regression (Final Model)
 
-## 🤖 Models Used & Performance Summary  
+Best recall for the attrition class
 
-### **1️⃣ Logistic Regression (Final Model)**  
-- Best recall for the attrition class  
-- Strongest balance of **false positives vs false negatives**  
-- Highly interpretable for HR teams  
-- Selected as **final model**
+Strongest balance of false positives vs false negatives
 
-### **2️⃣ Random Forest**  
-- Good accuracy  
-- Weak recall for the minority class  
-- Not ideal for imbalanced HR datasets  
+Highly interpretable for HR teams
 
-### **3️⃣ XGBoost**  
-- Strong performance  
-- Better recall than Random Forest  
-- Still not as effective as Logistic Regression for business KPIs  
+Selected as final model
 
----
+2️⃣ Random Forest
 
-## 🛠 Tech Stack  
-- **Python**  
-- **Pandas**, **NumPy**  
-- **Scikit-Learn**  
-- **Matplotlib**, **Seaborn**  
-- **XGBoost**  
+Good overall accuracy
 
----
+Weak recall for minority class
 
-## 📁 Repository Structure  
+Not ideal for imbalanced HR datasets
 
+3️⃣ XGBoost
+
+Strong performance
+
+Better recall than Random Forest
+
+Still not as effective as Logistic Regression for business KPIs
+
+🛠 Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Scikit-Learn
+
+Matplotlib, Seaborn
+
+XGBoost
+
+📁 Repository Structure
 employee-attrition-prediction/
 │
 ├── README.md
@@ -82,38 +97,31 @@ employee-attrition-prediction/
 ├── .gitignore
 │
 ├── notebooks/
-│ ├── Employee_Attrition_Prediction.ipynb
-│ ├── Employee_Attrition_Prediction.html
-│ └── Employee_Attrition_Prediction.pdf
+│   ├── Employee_Attrition_Prediction.ipynb
+│   ├── Employee_Attrition_Prediction.html
+│   └── Employee_Attrition_Prediction.pdf
 │
 ├── reports/
-│ └── README.md
+│   └── README.md
 │
 ├── images/
-│ └── README.md
+│   └── README.md
 │
 └── src/
-└── README.md
+    └── README.md
 
-yaml
-Copy code
-
----
-
-## 📥 Getting Started  
-
-### **Clone the Repository**
-```bash
+📥 Getting Started
+Clone the Repository
 git clone https://github.com/DesGreat/employee-attrition-prediction.git
+
 Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 Open the Notebook
-bash
-Copy code
 jupyter notebook
+
 📘 Future Improvements
+
 Hyperparameter tuning (GridSearchCV, Optuna)
 
 SHAP-based interpretability
@@ -125,10 +133,12 @@ Modular, production-ready Python scripts
 CI/CD workflow and automated testing
 
 🙏 Acknowledgements
+
 Special thanks to Data Scientists Network (DSN) for hosting the hackathon
 and to the amazing learning community that supported the journey.
 
 🔗 Connect With Me
+
 GitHub: https://github.com/DesGreat
 
 LinkedIn: https://www.linkedin.com/in/destiny-aimufia14
