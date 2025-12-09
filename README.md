@@ -4,10 +4,10 @@ End-to-end machine learning project for predicting employee attrition using EDA,
 ---
 
 ## 🏆 Hackathon Achievement  
-- **Final Score:** 0.87137  
-- **Position:** 🥉 Top 3 (2nd Runner-Up)  
-- **Event:** DSN Lekki–Ajah Hackathon  
-- **Track:** Employee Attrition Prediction  
+**Final Score:** 0.87137  
+**Position:** 🥉 Top 3 (2nd Runner-Up)  
+**Event:** DSN Lekki–Ajah Hackathon  
+**Track:** Employee Attrition Prediction  
 
 This repository contains my end-to-end machine learning solution for the DSN Lekki–Ajah Employee Attrition Prediction Hackathon, where I finished **Top 3** with a final score of **0.87137**.
 
@@ -44,21 +44,21 @@ These insights guided feature selection and supported HR recommendations.
 
 ## 🤖 Models Used & Performance Summary  
 
-### **1️⃣ Logistic Regression (Final Model)**  
+### 1️⃣ Logistic Regression (Final Model)  
 - Best recall for the attrition class  
 - Strongest balance of false positives vs false negatives  
 - Highly interpretable for HR teams  
-- Selected as the **final model**
+- **Selected as the final model**
 
-### **2️⃣ Random Forest**  
+### 2️⃣ Random Forest  
 - Good overall accuracy  
 - Weak recall for minority class  
-- Not ideal for imbalanced HR datasets  
+- Not ideal for imbalanced HR datasets
 
-### **3️⃣ XGBoost**  
+### 3️⃣ XGBoost  
 - Strong performance  
 - Better recall than Random Forest  
-- Still not as effective as Logistic Regression for business KPIs  
+- Still not as effective as Logistic Regression for business KPIs
 
 ---
 
@@ -73,7 +73,6 @@ These insights guided feature selection and supported HR recommendations.
 
 ## 📁 Repository Structure  
 
-```text
 employee-attrition-prediction/
 │
 ├── README.md
@@ -82,22 +81,28 @@ employee-attrition-prediction/
 ├── .gitignore
 │
 ├── notebooks/
-│   ├── Employee_Attrition_Prediction.ipynb
-│   ├── Employee_Attrition_Prediction.html
-│   └── Employee_Attrition_Prediction.pdf
+│ ├── Employee_Attrition_Prediction.ipynb
+│ ├── Employee_Attrition_Prediction.html
+│ └── Employee_Attrition_Prediction.pdf
 │
 ├── reports/
-│   └── README.md
+│ └── README.md
 │
 ├── images/
-│   └── README.md
+│ └── README.md
 │
 └── src/
-    └── README.md
-📥 Getting Started
-Clone the Repository
-bash
+└── README.md
+
+yaml
 Copy code
+
+---
+
+## 📥 Getting Started  
+
+### Clone the Repository
+```bash
 git clone https://github.com/DesGreat/employee-attrition-prediction.git
 Install Dependencies
 bash
@@ -124,7 +129,6 @@ and to the amazing learning community that supported the journey.
 
 🔗 Connect With Me
 GitHub: https://github.com/DesGreat
-
 LinkedIn: https://www.linkedin.com/in/destiny-aimufia14
 
 yaml
