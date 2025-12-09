@@ -48,11 +48,11 @@ These insights guided feature selection and supported HR recommendations.
 - Best recall for the attrition class  
 - Strongest balance of false positives vs false negatives  
 - Highly interpretable for HR teams  
-- Selected as the **final model**
+- **Selected as the final model**
 
 ### 2️⃣ Random Forest
 - Good overall accuracy  
-- Weak recall for minority class  
+- Weak recall for the minority class  
 - Not ideal for imbalanced HR datasets  
 
 ### 3️⃣ XGBoost
@@ -72,6 +72,7 @@ These insights guided feature selection and supported HR recommendations.
 ---
 
 ## 📁 Repository Structure
+```
 employee-attrition-prediction/
 │
 ├── README.md
@@ -80,53 +81,56 @@ employee-attrition-prediction/
 ├── .gitignore
 │
 ├── notebooks/
-│ ├── Employee_Attrition_Prediction.ipynb
-│ ├── Employee_Attrition_Prediction.html
-│ └── Employee_Attrition_Prediction.pdf
+│   ├── Employee_Attrition_Prediction.ipynb
+│   ├── Employee_Attrition_Prediction.html
+│   └── Employee_Attrition_Prediction.pdf
 │
 ├── reports/
-│ └── README.md
+│   └── README.md
 │
 ├── images/
-│ └── README.md
+│   └── README.md
 │
 └── src/
-└── README.md
-
+    └── README.md
+```
 
 ---
 
 ## 📥 Getting Started
 
-### **Clone the Repository**
+### Clone the Repository
 ```bash
 git clone https://github.com/DesGreat/employee-attrition-prediction.git
+```
 
-Install Dependencies
+### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Open the Jupyter Notebook
+### Open the Jupyter Notebook
+```bash
 jupyter notebook
+```
 
-📘 Future Improvements
+---
 
-Hyperparameter tuning (GridSearchCV, Optuna)
+## 📘 Future Improvements
+- Hyperparameter tuning (GridSearchCV, Optuna)  
+- SHAP-based interpretability  
+- Streamlit deployment app  
+- Modular, production-ready Python scripts  
+- CI/CD workflow and automated testing  
 
-SHAP-based interpretability
+---
 
-Streamlit deployment app
-
-Modular, production-ready Python scripts
-
-CI/CD workflow and automated testing
-
-🙏 Acknowledgements
-
-Special thanks to Data Scientists Network (DSN) for hosting the hackathon,
+## 🙏 Acknowledgements
+Special thanks to **Data Scientists Network (DSN)** for hosting the hackathon,  
 and to the amazing learning community that supported the journey.
 
-🔗 Connect With Me
+---
 
-GitHub: https://github.com/DesGreat
-
-LinkedIn: https://www.linkedin.com/in/destiny-aimufia14
+## 🔗 Connect With Me
+- **GitHub:** https://github.com/DesGreat  
+- **LinkedIn:** https://www.linkedin.com/in/destiny-aimufia14
