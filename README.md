@@ -72,3 +72,61 @@ These insights guided feature selection and supported HR recommendations.
 ---
 
 ## 📁 Repository Structure
+employee-attrition-prediction/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+│
+├── notebooks/
+│ ├── Employee_Attrition_Prediction.ipynb
+│ ├── Employee_Attrition_Prediction.html
+│ └── Employee_Attrition_Prediction.pdf
+│
+├── reports/
+│ └── README.md
+│
+├── images/
+│ └── README.md
+│
+└── src/
+└── README.md
+
+
+---
+
+## 📥 Getting Started
+
+### **Clone the Repository**
+```bash
+git clone https://github.com/DesGreat/employee-attrition-prediction.git
+
+Install Dependencies
+pip install -r requirements.txt
+
+Open the Jupyter Notebook
+jupyter notebook
+
+📘 Future Improvements
+
+Hyperparameter tuning (GridSearchCV, Optuna)
+
+SHAP-based interpretability
+
+Streamlit deployment app
+
+Modular, production-ready Python scripts
+
+CI/CD workflow and automated testing
+
+🙏 Acknowledgements
+
+Special thanks to Data Scientists Network (DSN) for hosting the hackathon,
+and to the amazing learning community that supported the journey.
+
+🔗 Connect With Me
+
+GitHub: https://github.com/DesGreat
+
+LinkedIn: https://www.linkedin.com/in/destiny-aimufia14
