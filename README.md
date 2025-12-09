@@ -7,7 +7,11 @@ End-to-end machine learning project for predicting employee attrition using EDA,
 - **Final Score:** 0.87137  
 - **Position:** 🥉 Top 3 (2nd Runner-Up)  
 - **Event:** DSN Lekki–Ajah Hackathon  
-- **Track:** Employee Attrition Prediction  
+- **Track:** Employee Attrition Prediction
+
+  📸 Leaderboard Screenshot  
+![Leaderboard](images/EP_Leaderboard.png)
+
 
 This repository contains my end-to-end machine learning solution for the DSN Lekki–Ajah Employee Attrition Prediction Hackathon, where I finished Top 3 with a final score of **0.87137**.
 
