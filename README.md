@@ -1,48 +1,46 @@
-# Employee Attrition Prediction – Hackathon Solution
- End-to-end machine learning solution for predicting employee attrition using EDA, feature engineering, and classification models.
+# Employee Attrition Prediction – Hackathon Solution  
 
-**🏆 Final Score: 0.87137 – DSN Lekki–Ajah Hackathon**  
-**🥉 Placed: Top 3 (2nd Runner-Up)**  
+### *End-to-end machine learning solution for predicting employee attrition using EDA, feature engineering, and classification models.*
+
+---
+
+## 🏆 Hackathon Achievement  
+- **Final Score:** 0.87137  
+- **Position:** 🥉 Top 3 (2nd Runner-Up)  
+- **Event:** DSN Lekki–Ajah Hackathon  
+- **Track:** Employee Attrition Prediction  
 
 This repository contains my end-to-end machine learning solution for the **DSN Lekki–Ajah Employee Attrition Prediction Hackathon**, where I placed **Top 3** with a final leaderboard score of **0.87137**.  
-This was my **first ever machine learning hackathon**, and a major milestone in my learning journey.
+This was my **first ever machine learning hackathon**, marking a major milestone in my learning journey.
 
-The goal of the challenge was to predict which employees are likely to leave a company based on their demographic, behavioral, and workplace-related characteristics.
+The challenge aimed to predict which employees are likely to leave a company based on their demographic, behavioral, and workplace-related characteristics.
 
 ---
 
 ## 🚀 Project Overview  
 
 Employee attrition is a major challenge for organizations.  
-This project explores key factors behind employee turnover and builds predictive models using:
+This project analyzes and models the drivers of attrition using:
 
-- ✔ Comprehensive EDA  
-- ✔ Feature engineering & preprocessing  
-- ✔ Handling class imbalance  
-- ✔ Multiple machine learning models  
-- ✔ Model evaluation & comparison  
-- ✔ Insights for HR decision-making  
-
----
-
-## 🏆 Hackathon Results  
-- 🥉 **Top 3 (2nd Runner-Up)**  
-- 📊 **Final Score:** *0.87137*  
-- 📍 **Event:** DSN Lekki–Ajah Hackathon  
-- 🧠 **Task:** Binary Classification – Predict Employee Attrition  
+- ✔ **Comprehensive EDA**  
+- ✔ **Feature engineering & preprocessing**  
+- ✔ **Handling class imbalance**  
+- ✔ **Multiple machine learning models**  
+- ✔ **Model comparison & evaluation**  
+- ✔ **Insights for HR decision-making**  
 
 ---
 
 ## 🧠 Key Insights From the Data  
 
-Major factors influencing attrition included:
+Major factors contributing to employee attrition include:
 
-- Employees working **OverTime** had significantly higher attrition  
-- Employees with **lower monthly income** tended to leave more  
-- **Job role**, **job satisfaction**, and **work-life balance** were strong indicators  
-- **Age** and **years at company** also contributed to turnover risk  
+- Employees working **OverTime** showed significantly higher attrition  
+- Employees with **lower monthly income** were more likely to leave  
+- **Job role**, **job satisfaction**, and **work-life balance** strongly influenced attrition  
+- **Age** and **years at company** were also major determinants  
 
-These insights informed model interpretation and HR recommendations.
+These insights helped guide model selection and recommend HR interventions.
 
 ---
 
@@ -50,19 +48,19 @@ These insights informed model interpretation and HR recommendations.
 
 ### **1️⃣ Logistic Regression (Final Model)**  
 - Best **recall** for attrition class  
-- Best balance of **false positives vs false negatives**  
-- Highly **interpretable** for HR stakeholders  
+- Most stable **TP/FN balance**  
+- Highly **interpretable** for HR teams  
 - Selected as **final model**
 
 ### **2️⃣ Random Forest**  
 - Good accuracy  
 - Poor recall for minority class  
-- Not ideal for imbalanced HR data
+- Not ideal for imbalanced HR datasets  
 
 ### **3️⃣ XGBoost**  
 - Strong performance  
 - Better recall than Random Forest  
-- Still not as effective as Logistic Regression for business impact
+- Still not as effective as Logistic Regression for business-driven metrics  
 
 ---
 
@@ -102,7 +100,7 @@ employee-attrition-prediction/
 
 ---
 
-## 📥 Getting Started  
+## 📥 Getting Started
 
 ### **Clone the Repository**
 ```bash
@@ -123,16 +121,16 @@ jupyter notebook
 
 ## 📘 Future Improvements  
 - Hyperparameter tuning (GridSearchCV, Optuna)  
-- SHAP-based interpretability  
-- Streamlit app for deployment  
-- Modular Python scripts (preprocessing, training, evaluation)  
-- CI/CD workflow + automated testing  
+- SHAP-based feature interpretability  
+- Streamlit deployment app  
+- Modular production-ready Python scripts  
+- CI/CD workflow with automated testing  
 
 ---
 
 ## 🙏 Acknowledgements  
-Special thanks to **Data Scientists Network (DSN)** for organizing the hackathon  
-and to the amazing community that supports continuous learning.
+Special thanks to **Data Scientists Network (DSN)** for hosting the hackathon  
+and to the amazing community that encourages continuous learning.
 
 ---
 
